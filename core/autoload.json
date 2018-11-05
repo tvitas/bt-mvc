@@ -1,0 +1,26 @@
+{"autoload":
+    {
+        "core_component":
+        [
+            "Auth.php",
+            "DatabaseMysql.php",
+            "Language.php",
+            "Message.php",
+            "Request.php",
+            "Response.php",            
+            "Route.php",
+            "Sanitize.php",
+            "Translate.php"
+        ],
+        "service":
+        [
+            "PageService.php"
+        ],
+        "view":
+        [
+            "DisplayMessages.php",
+            "LangSwitcher.php",
+            "LoginButton.php"
+        ]
+    }
+}
