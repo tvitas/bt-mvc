@@ -13,12 +13,7 @@ $baseDir   = strtr(__DIR__, '/\\', DIRECTORY_SEPARATOR) . DIRECTORY_SEPARATOR;
 $baseUrl   = substr($_SERVER['SCRIPT_NAME'], 0, strpos($_SERVER['SCRIPT_NAME'], $indexName));
 $pathInfo  = substr(parse_url($_SERVER['REQUEST_URI'])['path'], strlen($baseUrl));
 $staticUrl = $baseUrl;
-
-
-if (!isset($_SERVER['HTTP_REWRITE_ON'])) {
-    $baseUrl = $baseUrl . $indexName . '/';
-}
-
+$isModRewrite = $_SERVER['HTTP_REWRITE'] ?? 'Off';
 
 if (file_exists('core' . DIRECTORY_SEPARATOR . 'config.inc.php')) {
     include_once 'core' . DIRECTORY_SEPARATOR . 'config.inc.php';

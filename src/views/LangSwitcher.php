@@ -4,6 +4,7 @@ function langSwitcher()
     $supported    = getSupportedLanguages();
     $requestPath  = getRequest()['path'];
     $requestQuery = getRequest()['get'];
+    $baseUrl      = getBaseUrl();
 
     if (isset($requestQuery['lang'])) {
         unset($requestQuery['lang']);
@@ -11,11 +12,15 @@ function langSwitcher()
 
     foreach ($supported as $language) {
         if (!empty($requestQuery)) {
-            $linkArray[$language] = BASE_URL
+            $linkArray[$language] = $baseUrl
             . $requestPath . '?'
             . http_build_query($requestQuery) . '&lang=' . $language;
         } else {
-            $linkArray[$language] = BASE_URL . $requestPath . '?' . 'lang=' . $language;
+            $linkArray[$language] = $baseUrl
+            . $requestPath
+            . '?'
+            . 'lang='
+            . $language;
         }
     }
     return renderResponse(

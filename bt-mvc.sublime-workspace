@@ -4,181 +4,397 @@
 		"selected_items":
 		[
 			[
-				"page",
-				"pageTitle"
+				"site",
+				"siteData"
 			],
 			[
-				"endfo",
-				"endforeach"
+				"array_wa",
+				"array_walk_recursive"
 			],
 			[
-				"position",
-				"positionTitle"
+				"menu",
+				"menuItem"
 			],
 			[
-				"staff",
-				"staffEntity"
-			],
-			[
-				"include",
-				"include_once"
-			],
-			[
-				"component",
-				"componentDir"
-			],
-			[
-				"strto",
-				"strtoupper"
-			],
-			[
-				"sta",
-				"staff"
-			],
-			[
-				"BASE",
-				"BASE_DIR"
-			],
-			[
-				"staf",
-				"staffEntity"
-			],
-			[
-				"query",
-				"queryResult"
-			],
-			[
-				"conne",
-				"connection"
-			],
-			[
-				"mysqli_conn",
-				"mysqli_connect_error"
-			],
-			[
-				"mysqli_co",
-				"mysqli_connect_errno"
-			],
-			[
-				"default",
-				"defaultAction"
-			],
-			[
-				"CORE",
-				"CORE_COMPONENTS_DIR"
-			],
-			[
-				"path",
-				"pathArray"
-			],
-			[
-				"lang",
-				"language"
-			],
-			[
-				"req",
-				"requestQuery"
-			],
-			[
-				"request",
-				"requestQuery"
-			],
-			[
-				"reques",
-				"requestQuery"
-			],
-			[
-				"link",
-				"linkVar"
-			],
-			[
-				"reque",
-				"requestLang"
-			],
-			[
-				"TRANSLATION",
-				"TRANSLATION_FILE_PATTERN"
-			],
-			[
-				"strt",
-				"strtr"
-			],
-			[
-				"PATH_",
-				"PATH_INFO"
-			],
-			[
-				"in",
-				"indexName"
-			],
-			[
-				"function",
-				"function_exists"
-			],
-			[
-				"msg",
-				"msgType"
-			],
-			[
-				"static",
-				"staticUrl"
-			],
-			[
-				"bas",
-				"baseUrl"
-			],
-			[
-				"JSON_U",
-				"JSON_UNESCAPED_UNICODE"
+				"is_a",
+				"is_array"
 			],
 			[
 				"json",
+				"json_decode"
+			],
+			[
+				"filter_input",
+				"filter_input_array"
+			],
+			[
+				"error",
+				"error_reporting"
+			],
+			[
+				"to",
+				"toFind"
+			],
+			[
+				"var_",
+				"var_dump"
+			],
+			[
+				"json_",
 				"json_encode"
+			],
+			[
+				"col",
+				"cols\tAttr"
+			],
+			[
+				"str_re",
+				"str_repeat"
+			],
+			[
+				"login",
+				"loginUri"
 			],
 			[
 				"base",
 				"baseDir"
 			],
 			[
-				"require",
-				"require_once"
+				"template",
+				"templateDir"
+			],
+			[
+				"view",
+				"viewDir"
+			],
+			[
+				"home",
+				"homeDir"
+			],
+			[
+				"setRe",
+				"setRequestLanguage\t(RequestLanguage.php)"
+			],
+			[
+				"allow",
+				"allowChars"
+			],
+			[
+				"saniti",
+				"sanitizePlain\t(Sanitize.php)"
+			],
+			[
+				"strip",
+				"strip_tags"
+			],
+			[
+				"http",
+				"httpStatusResponse\t(Response.php)"
 			],
 			[
 				"action",
-				"actionPrefix"
+				"actionUri"
+			],
+			[
+				"ob_get",
+				"ob_get_clean"
+			],
+			[
+				"one",
+				"oneInt"
+			],
+			[
+				"bas",
+				"base_dir\t(LangSwitcher.php)"
+			],
+			[
+				"lang",
+				"langSwitcher\t(LangSwitcher.php)"
+			],
+			[
+				"swit",
+				"switcher"
+			],
+			[
+				"render",
+				"renderResponse\t(AdminController.php)"
+			],
+			[
+				"for",
+				"foreach\tforeach …"
+			],
+			[
+				"request",
+				"requestPart"
+			],
+			[
+				"str",
+				"strpos\t(index.php)"
+			],
+			[
+				"file",
+				"fileName"
+			],
+			[
+				"translati",
+				"translationsDir"
+			],
+			[
+				"language",
+				"languageDefault"
+			],
+			[
+				"langu",
+				"languageFallback"
+			],
+			[
+				"uri",
+				"uriLogin"
+			],
+			[
+				"login_",
+				"login_uri\t(config.inc.php)"
+			],
+			[
+				"s",
+				"sfphp"
+			],
+			[
+				"ac",
+				"action_uri\t(ProtectController.php)"
+			],
+			[
+				"getC",
+				"getCurrentRequest"
+			],
+			[
+				"redire",
+				"redirectResponse\t(RequestDefender.php)"
+			],
+			[
+				"end",
+				"endAuth\t(Defender.php)"
 			],
 			[
 				"controller",
-				"controllerPrefix"
+				"controllerUri"
 			],
 			[
-				"http_",
-				"http_response_code"
+				"contr",
+				"controllerUri"
 			],
 			[
-				"str_re",
-				"str_replace"
+				"redirect",
+				"redirectResponse\t(RequestLocale.php)"
+			],
+			[
+				"Curre",
+				"currentRequest"
+			],
+			[
+				"current",
+				"currentPath"
+			],
+			[
+				"protection",
+				"protectionController"
+			],
+			[
+				"in_",
+				"in_array"
+			],
+			[
+				"in_arra",
+				"in_array"
+			],
+			[
+				"in_a",
+				"in_array"
+			],
+			[
+				"name",
+				"namespace\t(sfphp.php)"
+			],
+			[
+				"listeners",
+				"listenersQueue"
+			],
+			[
+				"func",
+				"funcPrefix"
+			],
+			[
+				"getRe",
+				"getRequestMethod"
+			],
+			[
+				"lo",
+				"localeFallback"
+			],
+			[
+				"function",
+				"function_exists"
+			],
+			[
+				"srcl",
+				"srclisten\t(config.inc.php)"
+			],
+			[
+				"path",
+				"pathInfo"
+			],
+			[
+				"array_un",
+				"array_unshift"
+			],
+			[
+				"sani",
+				"sanitizeGet\t(Sanitizer.php)"
+			],
+			[
+				"templa",
+				"templateDir"
+			],
+			[
+				"all",
+				"allowed_chars_request\t(app.php)"
+			],
+			[
+				"homr",
+				"homeDir"
+			],
+			[
+				"actio",
+				"action_suffix\t(app.php)"
+			],
+			[
+				"va",
+				"var_dump\t(Request.php)"
 			],
 			[
 				"var",
-				"var_dump"
+				"var_dump\t(app.php)"
 			],
 			[
-				"parse_",
-				"parse_url"
+				"lib",
+				"libDir"
+			],
+			[
+				"re",
+				"requestPath"
+			],
+			[
+				"ini",
+				"ini_set"
+			],
+			[
+				"bo",
+				"box-grey\t(layout.tpl.php)"
+			],
+			[
+				"d",
+				"div"
+			],
+			[
+				"code",
+				"code-container\t(layout.tpl.php)"
+			],
+			[
+				"overflow",
+				"overflow-y\tproperty"
+			],
+			[
+				"h",
+				"header"
+			],
+			[
+				"ha",
+				"header\tTag"
+			],
+			[
+				"APP_",
+				"APP_HOME\t(config.inc.php)"
+			],
+			[
+				"padding",
+				"padding-eq"
+			],
+			[
+				"page",
+				"pageVars"
+			],
+			[
+				"fun",
+				"function_exists"
+			],
+			[
+				"APP",
+				"APP_DATA\t(ErrorModel.php)"
+			],
+			[
+				"contro",
+				"controllerAction"
+			],
+			[
+				"err",
+				"error\t(ClientError.json)"
+			],
+			[
+				"need",
+				"needHeader"
+			],
+			[
+				"clientError",
+				"clientErrorById\t(ErrorModel.php)"
+			],
+			[
+				"clientEr",
+				"clientErrorById\t(ErrorModel.php)"
+			],
+			[
+				"cle",
+				"clientErrorById\t(ErrorModel.php)"
+			],
+			[
+				"read",
+				"readFromFile\t(FileReader.php)"
+			],
+			[
+				"return",
+				"returned\t(ClientError.json)"
+			],
+			[
+				"clien",
+				"clientErrors"
+			],
+			[
+				"retu",
+				"returner"
+			],
+			[
+				"array_key",
+				"array_key_exists"
+			],
+			[
+				"cl",
+				"clientErrors"
+			],
+			[
+				"e",
+				"error"
+			],
+			[
+				"__",
+				"__DIR__\t(index.php)"
+			],
+			[
+				"mb_",
+				"mb_strlen"
 			]
 		]
 	},
 	"buffers":
 	[
-		{
-			"file": "README.MD",
-			"settings":
-			{
-				"buffer_size": 152,
-				"line_ending": "Unix"
-			}
-		}
 	],
 	"build_system": "",
 	"build_system_choices":
@@ -187,30 +403,43 @@
 	"build_varint": "",
 	"command_palette":
 	{
-		"height": 0.0,
+		"height": 392.0,
 		"last_filter": "",
 		"selected_items":
 		[
 			[
-				"PHP Code Sniffer: ",
-				"PHP Code Sniffer: Sniff this file"
-			],
-			[
-				"pack",
+				"pl",
 				"Package Control: Install Package"
 			],
 			[
-				"ins",
-				"Install Package Control"
+				"Snippet: ",
+				"Snippet: elif …"
+			],
+			[
+				"Package Control: ",
+				"Package Control: Install Package"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"Insta",
+				"Package Control: Install Package"
+			],
+			[
+				"",
+				"Bookmarks: Clear All"
 			]
 		],
-		"width": 0.0
+		"width": 497.0
 	},
 	"console":
 	{
-		"height": 158.0,
+		"height": 250.0,
 		"history":
 		[
+			"cd /var/www/html/sfphp"
 		]
 	},
 	"distraction_free":
@@ -224,122 +453,161 @@
 	},
 	"expanded_folders":
 	[
-		"/C/www/bt-mvc"
+		"/var/www/html/bt-mvc",
+		"/var/www/html/bt-mvc/core",
+		"/var/www/html/bt-mvc/core/lib",
+		"/var/www/html/bt-mvc/core/lib/components",
+		"/var/www/html/bt-mvc/public",
+		"/var/www/html/bt-mvc/public/css",
+		"/var/www/html/bt-mvc/public/js",
+		"/var/www/html/bt-mvc/public/vendor",
+		"/var/www/html/bt-mvc/public/vendor/uikit",
+		"/var/www/html/bt-mvc/resources",
+		"/var/www/html/bt-mvc/resources/translations",
+		"/var/www/html/bt-mvc/src",
+		"/var/www/html/bt-mvc/src/controllers",
+		"/var/www/html/bt-mvc/src/models",
+		"/var/www/html/bt-mvc/src/services",
+		"/var/www/html/bt-mvc/src/site",
+		"/var/www/html/bt-mvc/src/views",
+		"/var/www/html/bt-mvc/src/views/templates",
+		"/var/www/html/bt-mvc/src/views/templates/menu",
+		"/var/www/html/bt-mvc/src/views/templates/static"
 	],
 	"file_history":
 	[
-		"/C/www/bt-mvc/core/lib/components/Route.php",
-		"/C/www/bt-mvc/core/autoload.json",
-		"/C/www/bt-mvc/src/models/StaffModel.php",
-		"/C/www/bt-mvc/src/controllers/StaffController.php",
-		"/C/www/bt-mvc/src/views/templates/staff/staff_view.html.php",
-		"/C/www/bt-mvc/resources/translations/strings_lt.l10n",
-		"/C/www/bt-mvc/src/views/templates/staff/staff_list.html.php",
-		"/C/www/bt-mvc/core/lib/components/Translate.php",
-		"/C/www/bt-mvc/core/lib/components/Response.php",
-		"/C/www/bt-mvc/core/kernel.php",
-		"/C/www/bt-mvc/src/settings.inc.php",
-		"/C/www/bt-mvc/core/lib/components/Database.php",
-		"/C/www/bt-mvc/core/config.inc.php",
-		"/C/www/bt-mvc/core/components.json",
-		"/C/www/bt-mvc/core/lib/components/Request.php",
-		"/C/www/bt-mvc/src/services/PageService.php",
-		"/C/www/bt-mvc/src/controllers/DefaultController.php",
-		"/C/www/bt-mvc/src/views/LangSwitcher.php",
-		"/C/www/bt-mvc/src/controllers/AuthController.php",
-		"/C/www/bt-mvc/src/services/services.json",
-		"/C/web-dev/mysql-database/mysql.log",
-		"/C/web-dev/mysql-database/slow-query-mysql.log",
-		"/C/www/bt-mvc/README.MD",
-		"/C/www/bt-mvc/src/views/templates/base.html.php",
-		"/C/www/bt-mvc/src/controllers/LoginButton.php",
-		"/C/www/bt-mvc/src/views/templates/login/login_button.html.php",
-		"/C/www/bt-mvc/src/views/views.json",
-		"/C/www/bt-mvc/src/views/templates/login/login_form.html.php",
-		"/C/www/bt-mvc/src/controllers/DisplayMessages.php",
-		"/C/www/bt-mvc/core/lib/components/Message.php",
-		"/C/www/bt-mvc/src/views/templates/lang/lang.html.php",
-		"/C/www/bt-mvc/src/views/templates/message/message.html.php",
-		"/C/www/bt-mvc/src/views/templates/static/javascript.inc.html.php",
-		"/C/www/bt-mvc/src/views/templates/static/stylesheets.inc.html.php",
-		"/C/www/bt-mvc/src/views/templates/static/block_meta.inc.html",
-		"/C/www/bt-mvc/src/controllers/MessageDisplay.php",
-		"/C/www/bt-mvc/core/lib/components/Language.php",
-		"/C/www/bt-mvc/src/controllers/LangSwitcher.php",
-		"/C/www/bt-mvc/resources/translations/messages_lt.l10n",
-		"/C/www/bt-mvc/core/lib/components/Auth.php",
-		"/C/www/bt-mvc/core/lib/components/Sanitize.php",
-		"/C/www/bt-mvc/src/views/langSwitcher.php",
-		"/C/www/bt-mvc/bt-mvc.sublime-project",
-		"/C/www/bt-mvc/app.php",
-		"/C/www/bt-mvc/src/models/shared/PageModel.php",
-		"/C/www/bt-mvc/src/views/templates/message.html.php",
-		"/C/www/bt-mvc/src/views/templates/plain/agreement.plain.php",
-		"/C/www/bt-mvc/src/controllers/AgreementController.php",
-		"/C/www/bt-mvc/core/registry.json",
-		"/C/www/bt-mvc/core/lib/components/registry.json",
-		"/C/www/bt-mvc/composer.json",
-		"/C/www/bt-mvc/core/composer.json",
-		"/C/www/bt-mvc/.htaccess",
-		"/C/www/bt-mvc/src/controllers/ApiController.php",
-		"/C/www/bt-mvc/src/controllers/HttpStatusController.php",
-		"/C/www/bt-mvc/src/views/templates/base.plain.php",
-		"/C/www/bt-mvc/curl.php",
-		"/C/www/bt-mvc/src/views/templates/base.xml.php",
-		"/C/www/bt-mvc/index.php",
-		"/C/www/bt-mvc/config.inc.php",
-		"/C/Users/vitalijus/AppData/Roaming/Composer/vendor/autoload.php",
-		"/C/www/bt-mvc/src/models/shared/pageModel.php",
-		"/C/www/bt-mvc/src/controllers/shared/pageController.php",
-		"/C/web-dev/php/7.2-ts/php.ini",
-		"/D/dokumentai/vitalijus/Desktop/pmis.csr",
-		"/C/web-dev/apache/conf/extra/httpd-vhosts.conf",
-		"/C/www/bt-mvc/src/views/templates/static/stylesheets.inc.html",
-		"/C/www/bt-mvc/public/assets.json",
-		"/C/www/bt-mvc/fpc.php",
-		"/C/www/mvc/config.inc.php",
-		"/C/www/mvc/index.php",
-		"/C/www/bt-mvc/Response.php",
-		"/C/www/bt-mvc/DefaultController.php",
-		"/C/www/bt-mvc/stage-2.php",
-		"/C/www/bt-mvc/base.html.php",
-		"/C/www/bt-mvc/base.xml.php",
-		"/C/www/mvc/core/lib/components/Response.php",
-		"/C/www/mvc/.htaccess",
-		"/C/web-dev/apache/conf/httpd.conf",
-		"/C/www/mvc/core/Response.php",
-		"/C/www/mvc/src/controllers/DefaultController.php",
-		"/C/www/mvc/src/controllers/SubmitController.php",
-		"/C/www/mvc/src/views/templates/login/login_form.html.php",
-		"/C/www/mvc/src/views/templates/base.html.php",
-		"/C/www/mvc/geltonuController.php",
-		"/C/www/mvc/DefaultController.php",
-		"/C/www/geltonu/plytu/kelias/.htaccess",
-		"/C/www/geltonu/plytu/kelias/app.php",
-		"/C/web-dev/php/7.2-nts/php.ini",
-		"/C/www/index.php",
-		"/C/web-dev/apache/htdocs/index.html",
-		"/D/dokumentai/vitalijus/Desktop/01-php-programavimo-aplinka.txt",
-		"/C/web-dev/apache/logs/localhost/error.log",
-		"/C/web-dev/apache/logs/error.log",
-		"/C/web-dev/apache/logs/localhost/access.log",
-		"/D/dokumentai/vitalijus/Desktop/php-paskaitos.txt",
-		"/D/dokumentai/vitalijus/Desktop/php-kurso-gaires.txt",
-		"/D/dokumentai/vitalijus/Desktop/01-paskaita-php-programavimo-aplinka.txt",
-		"/D/dokumentai/vitalijus/Desktop/php-kurso-gairės.txt",
-		"/C/Users/vitalijus/AppData/Local/Temp/scp56898/etc/php/5.6/fpm/php.ini.dist",
-		"/C/Users/vitalijus/AppData/Local/Temp/scp44185/etc/php/5.6/fpm/php.ini",
-		"/C/web-dev/php/7.2-ts/php.ini-production",
-		"/C/web-dev/nginx/conf/nginx.conf",
-		"/C/Windows/System32/drivers/etc/hosts",
-		"/C/php-dev/nginx/logs/error.log",
-		"/C/php-dev/nginx/logs/access.log",
-		"/C/php-dev/nginx/conf/fastcgi.conf",
-		"/D/dokumentai/vitalijus/Desktop/helo.php"
+		"/var/www/html/php-course/staff-dev/src/models/StaffModel.php",
+		"/home/vitas/.local/share/Trash/files/staff/src/services/PageService.php",
+		"/home/vitas/.local/share/Trash/files/staff/core/lib/components/Url.php",
+		"/var/www/html/php-course/staff-dev/src/services/PageService.php",
+		"/var/www/html/bt-mvc/src/services/PageService.php",
+		"/var/www/html/bt-mvc/resources/translations/strings_lt.l10n",
+		"/var/www/html/bt-mvc/src/site/site.json",
+		"/var/www/html/bt-mvc/src/views/templates/menu/menu.html.php",
+		"/var/www/html/bt-mvc/src/views/LangSwitcher.php",
+		"/var/www/html/bt-mvc/core/lib/components/Translate.php",
+		"/var/www/html/bt-mvc/core/lib/components/Url.php",
+		"/var/www/html/bt-mvc/.htaccess",
+		"/var/www/html/bt-mvc/src/views/templates/base.html.php",
+		"/var/www/html/bt-mvc/src/controllers/DemoController.php",
+		"/var/www/html/staff/src/models/StaffModel.php",
+		"/var/www/html/staff/src/controllers/StaffController.php",
+		"/var/www/html/bt-mvc/core/autoload.json",
+		"/var/www/html/bt-mvc/app.php",
+		"/var/www/html/bt-mvc/src/controllers/TasksController.php",
+		"/var/www/html/bt-mvc/src/controllers/DefaultController.php",
+		"/var/www/html/bt-mvc/core/kernel.php",
+		"/var/www/html/bt-mvc/core/config.inc.php",
+		"/var/www/html/bt-mvc/core/lib/components/Route.php",
+		"/var/www/html/bt-mvc/src/views/DisplayMenu.php",
+		"/var/www/html/bt-mvc/src/settings.inc.php",
+		"/var/www/html/bt-mvc/core/lib/components/Request.php",
+		"/var/www/html/bt-mvc/core/lib/components/Response.php",
+		"/var/www/html/bt-mvc/src/views/DisplayMessages.php",
+		"/var/www/html/bt-mvc/src/views/templates/login/login_button.html.php",
+		"/var/www/html/bt-mvc/src/controllers/StaffController.php",
+		"/var/www/html/bt-mvc/core/lib/components/Auth.php",
+		"/var/www/html/bt-mvc/core/lib/components/Language.php",
+		"/var/www/html/bt-mvc/core/lib/components/Sanitize.php",
+		"/var/www/html/bt-mvc/src/views/templates/static/block_meta.inc.html",
+		"/var/www/html/bt-mvc/src/views/LoginButton.php",
+		"/var/www/html/bt-mvc/src/views/templates/base.xml.php",
+		"/var/www/html/sfphp/core/lib/components/Response.php",
+		"/var/www/html/bt-mvc/src/controllers/AuthController.php",
+		"/var/www/html/bt-mvc/core/components.json",
+		"/var/www/html/bt-mvc/src/views/templates/login/login_form.html.php",
+		"/tmp/mozilla_vitas0/Response-1.php",
+		"/tmp/mozilla_vitas0/Response-2.php",
+		"/tmp/mozilla_vitas0/Response.php",
+		"/var/www/html/bt-mvc/index.php",
+		"/home/vitas/Downloads/htaccess",
+		"/home/vitas/Downloads/.htaccess",
+		"/media/vitas/ADATA HV100/DVR/README.TXT",
+		"/home/vitas/Downloads/phemplate.class.php",
+		"/var/www/html/mvc/index.php",
+		"/var/www/html/mvc/.htaccess",
+		"/var/www/html/pertis/api/api.php",
+		"/var/www/html/mvc/curl-json.php",
+		"/var/www/html/pertis/lib/scripts/common.js",
+		"/var/www/html/mvc/solver.php",
+		"/var/www/html/mvc/p-3.php",
+		"/var/www/html/sfphp/.htaccess",
+		"/var/log/apache2/error.log",
+		"/home/vitas/Downloads/php.ini",
+		"/home/vitas/.cache/.fr-k9bLb0/mas1.txt",
+		"/var/www/html/php-lessons/stuff/view/php.ini",
+		"/home/vitas/.cache/.fr-WbmBn4/menu.txt",
+		"/run/user/1000/gvfs/sftp:host=web.lsmuni.lt,port=2022,user=vitas/home/vitas/www/uzduotys.lsmuni.lt/lib/scripts/common.js",
+		"/var/www/html/pertis/sites/pertis/process/submit/pre_unipharma_order_recources.php",
+		"/home/vitas/.cache/.fr-0JqB4U/content.php",
+		"/var/www/html/mvc/arr.php",
+		"/var/www/html/symfony/web-app/src/AppBundle/Service/DataFileService.php",
+		"/var/www/html/symfony/web-app/src/AppBundle/Model/DataFile.php",
+		"/var/www/html/symfony/web-app/src/AppBundle/Controller/PageController.php",
+		"/var/www/html/mvc/u5.php",
+		"/var/www/html/mvc/form.php",
+		"/var/www/html/mvc/app.php",
+		"/var/www/html/sfphp/core/sfphp.php",
+		"/var/www/html/drupal/7/sites/knygos.lsmuni.lt/modules/ubercart/shipping/uc_flatrate_terminals/uc_flatrate_terminals.module",
+		"/home/vitas/.cache/.fr-7YCP5S/menu.txt",
+		"/home/vitas/.cache/.fr-Kl9Mys/content.php",
+		"/var/www/html/mvc/model.php",
+		"/var/www/html/mm/mvc/controller.php",
+		"/var/www/html/mm/mvc/.htaccess",
+		"/var/www/html/mm/mvc/app.php",
+		"/var/www/html/symfony/web-app/web/.htaccess",
+		"/var/www/html/less01/index.php",
+		"/var/www/html/sfphp/index.php",
+		"/var/www/html/less01/model.php",
+		"/var/www/html/less01/view.php",
+		"/home/vitas/.cache/.fr-QyIDwb/CodeIgniter-3.1.9/system/core/compat/standard.php",
+		"/run/user/1000/gvfs/sftp:host=web.lsmuni.lt,port=2022,user=vitas/home/vitas/www/medicaleducation.lt/wp-config.php",
+		"/tmp/mozilla_vitas0/index.php",
+		"/tmp/mozilla_vitas0/view.php",
+		"/tmp/mozilla_vitas0/model.php",
+		"/tmp/mozilla_vitas0/controller.php",
+		"/var/www/html/bt/model.php",
+		"/var/www/html/bt/controller.php",
+		"/home/vitas/.cache/.fr-7fo30W/content.php",
+		"/home/vitas/.cache/.fr-uS6M7x/footer.php",
+		"/home/vitas/.cache/.fr-5pYPGq/header.php",
+		"/home/vitas/.cache/.fr-YGPPDJ/index.php",
+		"/var/www/html/bt/index.php",
+		"/var/www/html/sfphp/core/lib/components/Request.php",
+		"/var/www/html/laravel/el/bootstrap/app.php",
+		"/var/www/html/laravel/el/vendor/symfony/http-foundation/Request.php",
+		"/var/www/html/laravel/el/vendor/laravel/framework/src/Illuminate/Http/Request.php",
+		"/var/www/html/laravel/el/app/Http/Controllers/Controller.php",
+		"/var/www/html/laravel/el/app/Http/Kernel.php",
+		"/var/www/html/symfony/web-app/app/AppKernel.php",
+		"/var/www/html/php-lessons/stuff/index.php",
+		"/var/www/html/laravel/el/routes/web.php",
+		"/var/www/html/laravel/el/vendor/symfony/http-foundation/ApacheRequest.php",
+		"/var/www/html/laravel/el/public/index.php",
+		"/var/www/html/sfphp/core/config.inc.php",
+		"/var/www/html/sfphp/src/controllers/IndexController.php",
+		"/var/www/html/sfphp/core/lib/components/Language.php",
+		"/var/www/html/sfphp/src/controllers/AdminController.php",
+		"/var/www/html/sfphp/src/views/LoginButton.php",
+		"/var/www/html/sfphp/src/controllers/AuthController.php",
+		"/home/vitas/.config/sublime-text-3/Packages/User/PEAR.sublime-build",
+		"/home/vitas/.cache/.fr-cawDv4/skelbimai.php",
+		"/home/vitas/.cache/.fr-0WLaKd/puslapis.php",
+		"/var/www/html/fm/index.php",
+		"/var/www/html/sfphp/core/lib/components/Translate.php",
+		"/var/www/html/sfphp/core/lib/components/listeners/RequestLanguage.php",
+		"/var/www/html/sfphp/src/views/templates/layout.html.php",
+		"/var/www/html/sfphp/src/controllers/GetController.php",
+		"/var/www/html/sfphp/resources/translations/messages_en.l10n",
+		"/var/www/html/sfphp/resources/translations/messages_lt.l10n",
+		"/var/www/html/symfony/demo/web/app.php",
+		"/var/www/html/symfony/demo/web/app_dev.php",
+		"/var/www/html/symfony/web-app/web/app.php",
+		"/var/www/html/omp/omp.local/index.php"
 	],
 	"find":
 	{
-		"height": 27.0
+		"height": 28.0
 	},
 	"find_in_files":
 	{
@@ -353,16 +621,35 @@
 		"case_sensitive": false,
 		"find_history":
 		[
-			"staff",
-			"index",
-			"basePath",
-			"include",
-			"extension=",
-			"zend_",
-			"extension",
-			"extensio",
-			"extension=",
-			"Diegėjas"
+			"BASE_URL",
+			"    $arrayKey = 'city';\n",
+			"filtered",
+			"GET",
+			"_GET",
+			"ch",
+			"GET",
+			"_GET",
+			"_POST",
+			"require",
+			"r",
+			"\n        ",
+			"'';",
+			"allowChar",
+			":",
+			"config",
+			"getT",
+			"drupal_placeholder(",
+			"format_string(",
+			"t(",
+			"locale",
+			"Locale",
+			"locale",
+			"currentP",
+			"            \n",
+			";\n",
+			"defaultConfig",
+			"app",
+			"config"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -370,6 +657,8 @@
 		"regex": false,
 		"replace_history":
 		[
+			" =",
+			"="
 		],
 		"reverse": false,
 		"show_context": true,
@@ -380,47 +669,18 @@
 	"groups":
 	[
 		{
-			"selected": 0,
 			"sheets":
 			[
-				{
-					"buffer": 0,
-					"file": "README.MD",
-					"semi_transient": true,
-					"settings":
-					{
-						"buffer_size": 152,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Markdown/Markdown.sublime-syntax"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
-					"type": "text"
-				}
 			]
 		}
 	],
 	"incremental_find":
 	{
-		"height": 27.0
+		"height": 28.0
 	},
 	"input":
 	{
-		"height": 40.0
+		"height": 127.0
 	},
 	"layout":
 	{
@@ -445,15 +705,31 @@
 		]
 	},
 	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 151.0
+	},
 	"output.find_results":
 	{
 		"height": 0.0
 	},
-	"pinned_build_system": "",
+	"output.git":
+	{
+		"height": 232.0
+	},
+	"output.mdpopups":
+	{
+		"height": 0.0
+	},
+	"output.xdebug":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "Packages/User/PSR-2.sublime-build",
 	"project": "bt-mvc.sublime-project",
 	"replace":
 	{
-		"height": 50.0
+		"height": 52.0
 	},
 	"save_all_on_build": true,
 	"select_file":
@@ -486,12 +762,71 @@
 	"selected_group": 0,
 	"settings":
 	{
+		"xdebug":
+		{
+			"hide_conflict": false,
+			"restore_index":
+			{
+				"14":
+				{
+					"group": 0,
+					"index": 0
+				},
+				"15":
+				{
+					"group": 0,
+					"index": 1
+				},
+				"18":
+				{
+					"group": 0,
+					"index": 3
+				},
+				"19":
+				{
+					"group": 0,
+					"index": 5
+				},
+				"20":
+				{
+					"group": 0,
+					"index": 4
+				},
+				"21":
+				{
+					"group": 0,
+					"index": 2
+				}
+			},
+			"restore_layout":
+			{
+				"cells":
+				[
+					[
+						0,
+						0,
+						1,
+						1
+					]
+				],
+				"cols":
+				[
+					0.0,
+					1.0
+				],
+				"rows":
+				[
+					0.0,
+					1.0
+				]
+			}
+		}
 	},
 	"show_minimap": true,
 	"show_open_files": false,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 322.0,
+	"side_bar_width": 253.0,
 	"status_bar_visible": true,
 	"template_settings":
 	{
