@@ -7,13 +7,13 @@ function run()
         return $components;
     }
 
-    $request = getRequest();
+    $request  = getRequest();
 
-    $route   = getRoute($request);
+    $route    = getRoute($request);
 
-    $auth    = getAuthRequest($request);
+    $auth     = getAuthRequest($request);
 
-    $lang    = getLanguageRequest($request);
+    $lang     = getLanguageRequest($request);
 
     $callback = getCallback();
 

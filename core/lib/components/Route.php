@@ -1,5 +1,5 @@
 <?php
-function getRoute(&$request)
+function getRoute($request)
 {
     $controllerPrefix = 'Default';
     $actionPrefix     = 'default';
@@ -9,10 +9,9 @@ function getRoute(&$request)
     $model            = '';
 
     if (!empty($route)) {
-        if ($route[0] == INDEX_NAME) {
+        if (isset($route[0]) and $route[0] == INDEX_NAME) {
             unset($route[0]);
             $route = array_values($route);
-            $request['path'] = getPathString($route);
         }
         if ((isset($route[0])) && ($route[0])) {
             $controller = str_replace($controllerPrefix, ucfirst(strtolower($route[0])), $controller);

@@ -2,13 +2,13 @@
     DirectoryIndex app.php index.php index.html
 </IfModule>
 <IfModule mod_rewrite.c>
-    SetEnv HTTP_REWRITE On
+    SetEnv HTTP_REWRITE Off
     RewriteRule ^src/ - [F]
     RewriteRule ^core/ - [F]
     RewriteRule ^resources/ - [F]
     RewriteEngine On
     RewriteCond %{REQUEST_FILENAME} !-d
     RewriteCond %{REQUEST_FILENAME} !-f
-    RewriteRule ^(.*)$ app.php [L]
+    #RewriteRule ^(.*)$ app.php [L]
 </IfModule>
 

@@ -50,14 +50,6 @@ function endCallback()
     return;
 }
 
-function setRequest($request = null)
-{
-    if ($request) {
-        $_SESSION['request'] = $request;
-    }
-    return;
-}
-
 function endRequest()
 {
     if (isset($_SESSION['request'])) {

@@ -4,7 +4,7 @@ function langSwitcher()
     $supported    = getSupportedLanguages();
     $requestPath  = getRequest()['path'];
     $requestQuery = getRequest()['get'];
-    $baseUrl      = getBaseUrl();
+    $baseUrl      = BASE_URL;
 
     if (isset($requestQuery['lang'])) {
         unset($requestQuery['lang']);
