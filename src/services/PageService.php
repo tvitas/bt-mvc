@@ -19,6 +19,7 @@ function getPageVars()
 {
     $pageVars = array('metaTitle' => 'BT-MVC', 'siteName' => t('Simple and Easy'));
     $siteData = loadSiteData('site');
+
     if ($siteData) {
         $pageVars = $siteData;
     }

@@ -1,14 +1,15 @@
+<?php extract($pageVars);?>
 <!DOCTYPE html>
 <html>
 <head>
 <?php include_once TEMPLATE_STATIC_DIR . 'block_meta.inc.html';?>
 <?php include_once TEMPLATE_STATIC_DIR . 'stylesheets.inc.html.php';?>
-<title><?= $pageVars['metaTitle'] ?? ''; ?></title>
+<title><?= t($metaTitle); ?></title>
 </head>
 <body>
 <nav class="uk-navbar-container" uk-navbar>
 <div class="uk-navbar-left">
-<a href="<?= STATIC_URL; ?>" class="uk-navbar-item uk-logo"><?= $pageVars['siteName'] ?? ''; ?></a>
+<a href="<?= STATIC_URL; ?>" class="uk-navbar-item uk-logo"><?= t($siteName); ?></a>
 </div>
 <div class="uk-navbar-center">
 <?= displayMenu(); ?>
