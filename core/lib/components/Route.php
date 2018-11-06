@@ -1,9 +1,9 @@
 <?php
-function getRoute($pathInfo)
+function getRoute(&$request)
 {
     $controllerPrefix = 'Default';
     $actionPrefix     = 'default';
-    $route            = getPathArray($pathInfo);
+    $route            = getPathArray($request['path']);
     $controller       = CONTROLLER_DIR . $controllerPrefix . 'Controller.php';
     $action           = $actionPrefix . 'Action';
     $model            = '';
@@ -12,6 +12,7 @@ function getRoute($pathInfo)
         if ($route[0] == INDEX_NAME) {
             unset($route[0]);
             $route = array_values($route);
+            $request['path'] = getPathString($route);
         }
         if ((isset($route[0])) && ($route[0])) {
             $controller = str_replace($controllerPrefix, ucfirst(strtolower($route[0])), $controller);
@@ -26,7 +27,12 @@ function getRoute($pathInfo)
     return array('controller' => $controller, 'action' => $action, 'model' => $model);
 }
 
-function getPathArray($pathInfo)
+function getPathArray($pathString)
 {
-    return array_filter(explode('/', $pathInfo));
+    return array_filter(explode('/', $pathString));
+}
+
+function getPathString($pathArray)
+{
+    return implode('/', $pathArray);
 }

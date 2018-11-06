@@ -10,7 +10,8 @@
             "Response.php",            
             "Route.php",
             "Sanitize.php",
-            "Translate.php"
+            "Translate.php",
+            "Url.php"
         ],
         "service":
         [
@@ -20,7 +21,8 @@
         [
             "DisplayMessages.php",
             "LangSwitcher.php",
-            "LoginButton.php"
+            "LoginButton.php",
+            "DisplayMenu.php"
         ]
     }
 }

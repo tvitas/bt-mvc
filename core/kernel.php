@@ -9,6 +9,8 @@ function run()
 
     $request = getRequest();
 
+    $route   = getRoute($request);
+
     $auth    = getAuthRequest($request);
 
     $lang    = getLanguageRequest($request);
@@ -28,8 +30,6 @@ function run()
     if ($lang) {
         setLanguage($lang);
     }
-
-    $route   = getRoute($request['path']);
 
     extract($route);
 

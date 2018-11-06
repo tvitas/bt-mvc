@@ -3,5 +3,13 @@
     {
         "siteName":"Simple and Easy",
         "metaTitle":"BT-MVC"
-    }
+    },
+    "menu":
+    [
+    	{
+    		"title": "Demo",
+    		"link": "demo"
+    	}
+
+    ]
 }

@@ -11,7 +11,7 @@
 <a href="<?= STATIC_URL; ?>" class="uk-navbar-item uk-logo"><?= $pageVars['siteName'] ?? ''; ?></a>
 </div>
 <div class="uk-navbar-center">
-<?php /*Menu here*/?>
+<?= displayMenu(); ?>
 </div>
 <div class="uk-navbar-right">
 <?= loginButton() ?? ''; ?>

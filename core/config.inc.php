@@ -5,6 +5,7 @@ define('BASE_URL', $baseUrl);
 define('PATH_INFO', $pathInfo);
 define('INDEX_NAME', $indexName);
 define('STATIC_URL', $staticUrl);
+define('IS_MOD_REWRITE', $isModRewrite);
 
 // Core components paths
 define('CORE_DIR', BASE_DIR . 'core' . DIRECTORY_SEPARATOR);

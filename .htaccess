@@ -2,7 +2,7 @@
     DirectoryIndex app.php index.php index.html
 </IfModule>
 <IfModule mod_rewrite.c>
-    SetEnv HTTP_REWRITE_ON
+    SetEnv HTTP_REWRITE On
     RewriteRule ^src/ - [F]
     RewriteRule ^core/ - [F]
     RewriteRule ^resources/ - [F]

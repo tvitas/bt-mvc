@@ -38,3 +38,15 @@ function getTranslationFile()
     }
     return [];
 }
+
+function ta($items = [])
+{
+    foreach ($items as $key => $val) {
+        if (is_array($val)) {
+            $val = ta($val);
+        } else {
+            $items[$key] = t($val);
+        }
+    }
+    return $items;
+}
