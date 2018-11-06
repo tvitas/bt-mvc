@@ -39,3 +39,17 @@ function getTranslationFile()
     return [];
 }
 
+<<<<<<< HEAD
+=======
+function ta($items = [])
+{
+    foreach ($items as $key => $val) {
+        if (is_array($val)) {
+            $val = ta($val);
+        } else {
+            $items[$key] = t($val);
+        }
+    }
+    return $items;
+}
+>>>>>>> 64bf910f73817566ccc1fd2665d1e5394b96b193

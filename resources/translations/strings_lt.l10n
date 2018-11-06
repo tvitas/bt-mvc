@@ -7,7 +7,12 @@ Simple and Easy = Lengvai ir paprastai
 # Titulinis
 Front page = Pradžia
 # Demo page
+<<<<<<< HEAD
 Page = Puslapis
 Demo = Puslapis
 Demo page = Parodomasis puslapis
 
+=======
+Demo page = Parodomasis puslapis
+Page = Puslapis
+>>>>>>> 64bf910f73817566ccc1fd2665d1e5394b96b193
