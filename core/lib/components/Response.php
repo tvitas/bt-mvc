@@ -2,7 +2,7 @@
 function redirectResponse($location = '', $redirectId = 302, $out = false)
 {
     if (!$out) {
-        $location = BASE_URL . $location;
+        $location = getBaseUrl() . $location;
     }
 
     header('Location: ' . $location, true, $redirectId);
